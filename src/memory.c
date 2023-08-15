@@ -7,7 +7,7 @@ void* reallocate(void* pointer, size_t oldSize, size_t newSize){
         free(pointer);
         return NULL;
     }
-    
+
     // When oldSize is zero, realloc() is equivalent to calling malloc().
     void* result = realloc(pointer, newSize);
 

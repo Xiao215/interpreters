@@ -5,7 +5,7 @@
 
 void initChunk(Chunk* chunk){
     /*Initialize the new array.
-    
+
     A new array should always be empty.*/
     chunk->count = 0;
     chunk->capacity = 0;
